@@ -1,0 +1,70 @@
+p
+{
+	color: white;
+	
+	font-family: 'StruckBase'
+	}
+	
+@font-face
+	{
+		font-family: 'StruckBase';
+		src: url('StruckBase.otf');
+	}
+
+
+em,h1
+{
+	color: grey; /*em et le titre seront en vert*/
+}
+
+.introduction
+{
+	color: pink;
+	text-align: center;
+}
+
+#ruby
+{
+	width: 10%; height: 10%; 
+	border-style: outset;
+	border-color: yellow;
+	border-width: 10px;
+	border-radius: 6px;	
+	float: right;
+}
+
+.Muerde
+{
+	color: yellow;
+	font-size: 3em;
+	font-family: Trebuchet MS;
+}
+
+h1+p
+{
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
+}
+
+em
+{
+	text-decoration: line-through;
+}
+
+figcaption
+{
+	float: right;
+	clear: right;
+}
+
+body
+{
+	background-image: url(audience.jpg);
+	background-position: center;
+	background-size: 100em;
+	background-repeat: no-repeat;
+	background-attachment: scroll; 
+}
