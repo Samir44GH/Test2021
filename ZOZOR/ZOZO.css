@@ -1,0 +1,28 @@
+p
+{
+	width: 350px;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px;
+	margin: auto;
+	margin-bottom: 20px;
+	word-wrap: break-word;
+}
+
+nav
+{
+	float: left;
+	width: 150px;
+	border: 1px solid black;
+}
+
+section
+{
+	border: 1px solid black;
+	margin-left: 170px;
+}
+
+a
+{
+	display: block;
+}
