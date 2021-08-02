@@ -1,0 +1,9 @@
+td
+{
+	border: 1px solid blue;
+}
+
+table
+{
+	border-collapse: collapse; /*LES BORDURES DU TABLEAU SONT COLLEES*/
+}

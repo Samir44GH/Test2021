@@ -1,0 +1,100 @@
+p
+{
+	color: white;
+	font-family: 'StruckBase';
+	text-shadow: 12px 12px 2px blue ;
+	}
+	
+@font-face
+	{
+		font-family: 'StruckBase';
+		src: url('StruckBase.otf');
+	}
+
+
+em,h1
+{
+	color: grey; /*em et le titre seront en vert*/
+}
+
+.introduction
+{
+	color: pink;
+	text-align: center;
+}
+
+#ruby
+{
+	width: 10%; height: 10%; 
+	border-style: outset;
+	border-color: yellow;
+	border-width: 10px;
+	border-radius: 6px;	
+	float: right;
+}
+
+.Muerde
+{
+	color: yellow;
+	font-size: 3em;
+	font-family: Trebuchet MS;
+	opacity: 0.6;
+	background-color: rgba(85, 235, 52,0.4);
+	border-top: 5px groove yellow;
+	border-bottom: 10px white outset;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px white inset;
+}
+
+h1+p
+{
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
+}
+
+em
+{
+	text-decoration: line-through;
+}
+
+figcaption
+{
+	float: right;
+	clear: right;
+}
+
+body
+{
+	background: url(audience.jpg) center no-repeat scroll,
+	url("fdd6.jpg") repeat;
+	background-size: 10em;
+	 
+}
+
+a:hover
+{
+	text-decoration: line-through;
+	color: green;
+	font-style: oblique;
+	background-color: yellow;
+}
+
+a
+{
+	text-decoration: overline;
+	color: white;
+	font-style: italic;
+}
+
+p:active
+{
+	background-color: red;
+}
+
+h1:active
+{
+	color: orange;
+}
